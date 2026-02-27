@@ -44,7 +44,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16 gap-16"
+      className="min-h-screen flex flex-col md:flex-row items-center justify-between px-5 md:px-14 gap-16"
     >
       {/* LEFT SIDE */}
       <div className="flex-1 text-center md:text-left">
@@ -113,7 +113,7 @@ function Hero() {
       {/* RIGHT SIDE VISUAL CARD */}
       <div className="flex-1 flex justify-center">
         <div className="bg-white/10 backdrop-blur-xl p-10 rounded-3xl shadow-2xl border border-blue-400/20 w-full max-w-md">
-          <h3 className="text-blue-400 font-semibold text-lg mb-6">
+          <h3 className="text-blue-400 font-semibold text-[35px] mb-6">
             Tech Stack
           </h3>
 
@@ -122,7 +122,7 @@ function Hero() {
               (tech, i) => (
                 <span
                   key={i}
-                  className="px-4 py-2 bg-blue-500/20 rounded-full text-sm text-blue-300 border border-blue-400/20"
+                  className="px-4 py-2 bg-lime-200 rounded-full text-sm text-black border border-blue-400/20"
                 >
                   {tech}
                 </span>
